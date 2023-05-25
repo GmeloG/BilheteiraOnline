@@ -1,0 +1,91 @@
+* {margin: 0; padding: 0;}
+
+.banner {
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(119, 115, 99, 0.647);
+}
+
+.logo{
+  cursor: pointer;
+  align-items: center;
+  margin: 20px;
+  margin-left: 150px;
+  
+}
+
+.ButtonStyle {
+  
+  cursor: pointer;
+  align-items: center;
+  margin-right: 150px;
+  display: block;
+  color: rgb(255, 217, 0);
+  text-align: center;
+  font-size: x-large;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navButton {
+  color: black;
+  color-scheme: black;
+}
+
+
+
+
+.categorias{
+  color: rgb(255, 217, 0);
+  text-align: center;
+ 
+}
+
+.carregar{
+  color: yellow;
+  text-decoration: solid;
+  text-align: center;
+}
+
+ .carregar :hover{
+   color: darkgoldenrod;
+   text-decoration: none;
+ }
+
+ .elemento {
+  padding-right: 100px;
+  text-decoration: none;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: cadetblue;
+  
+}
+
+
+.carousel {
+  display: flex;
+  height: 700px;
+
+}
+
+.MaisVendidos{
+  margin-top: 10px;
+}
+
+.maisVendidosElement{
+  padding-left: 100px;
+  
+}
