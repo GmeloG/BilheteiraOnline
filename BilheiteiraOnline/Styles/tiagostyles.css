@@ -1,0 +1,128 @@
+
+body {
+    height: 100%;
+}
+
+.login {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgb(133, 136, 110);
+}
+
+html, body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    }
+
+    h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: rgb(133, 136, 110);
+    }
+
+    .background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+    }
+
+    form {
+    padding: 25px;
+    margin: 0px;
+    box-shadow: 0 2px 5px (133, 136, 110)5f5f5; 
+    background:rgb(255, 255, 255); 
+    }
+
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid (133, 136, 110);
+    
+    }
+    input::placeholder {
+    color: #666;
+    }
+
+    button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1c87c9; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    
+    }
+
+    .botaoregistar{
+    width: 50%;
+    border: none;
+    background: #1c87c9; 
+    font-size: 16px;
+    color: #fff;
+
+    }
+
+    button:hover {
+    background: (133, 136, 110);
+    }    
+
+    @media (min-width: 568px) {
+    .background
+    flex-direction:row;
+    }
+
+    .form, form {
+    width: 50%;
+    }
+
+    .grid-rodape {
+    background-color: rgba(119, 115, 99, 0.647);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    min-height: 300px;
+    padding-top: 10px;
+    padding-left: 10px; 
+    text-align: center;
+    }
+
+    .logo {
+    width: 250px;
+    height: 100x;
+    padding-left: 20px;
+    padding-top: 20px;
+    }
+
+    .grid-item {
+    text-align: center;
+    text-decoration: none;
+    }
+
+    .sublinhado{
+    text-decoration: none;
+    color: #666;
+
+    }
+
+    .sublinhado:hover{
+    color: #fff;
+    }
+
+    .copyright{
+    text-align: center;
+    border: solid 1px #666;
+    }
+
+    .redes{
+    width: 100px;
+    height: 100px;
+    }
