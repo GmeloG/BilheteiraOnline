@@ -76,9 +76,10 @@ html, body {
     background: (133, 136, 110);
     }    
 
-    @media (min-width: 568px) {
-    .background
+     
+    .background{
     flex-direction:row;
+    @media (min-width: 568px);
     }
 
     .form, form {
