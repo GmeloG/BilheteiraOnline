@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.banner {
+.bannerG {
   width: 100%;
   padding: 10px;
   align-items: center;
@@ -12,7 +12,7 @@
 
 }
 
-.navbar {
+.navbarG {
   width: 100%;
   margin: auto;
   padding: 20px 0;
@@ -22,7 +22,7 @@
   background-color: rgba(119, 115, 99, 0.647);
 }
 
-.logo {
+.logoBanner {
   cursor: pointer;
   align-items: center;
   margin: 20px;
