@@ -30,9 +30,3 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     justify-content: center;
     align-items: center;
 }
-
-footer{
-    background: black;
-    color: white;
-    margin-top: auto;
-}
