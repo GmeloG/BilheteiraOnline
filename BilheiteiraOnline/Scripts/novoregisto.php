@@ -1,23 +1,23 @@
 <?php 
 
-    $serverName = "localhost";
+    $serverName = "127.0.0.1";
     $userName = "root";
     $ServerPassword ="";
     $databaseName = "bilheteira";
 
-    $connection = mysqli_connect($serverName, $userName, $ServerPassword);
+    $connection = mysqli_connect($serverName, $userName, $ServerPassword, $databaseName);
 
     if(!$connection){
-        echo ("Connection failed:" .mysqli_connect_error());
+        die ("Connection failed:" .mysqli_connect_error());
     }
 
     
-    $nome= $_GET['Nome'];
-    $email= $_GET['Email'];
-    $password= $_GET['Password'];
+    $nome= $_GET['nome'];
+    $email= $_GET['email'];
+    $password= $_GET['password'];
 
 
-    $sql_query = "INSERT INTO utilizador (Nome,Email,Password) VALUES ('$nome','$email','$password')";
+    $sql_query = "INSERT INTO `utilizador`(`nome`, `email`, `password`) VALUES ('$nome','$email','$password')";
 
     if (mysqli_query($connection, $sql_query)){
 

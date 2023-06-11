@@ -24,9 +24,9 @@ function onClickRegiste(){
 
 function validar(){
 
-    var name = document.forms["utilizador"]["UserName"];
-    var email = document.forms["utilizador"]["Email"];
-    var password = document.forms["utilizador"]["Password"];
+    var name = document.forms["utilizador"]["nome"];
+    var email = document.forms["utilizador"]["email"];
+    var password = document.forms["utilizador"]["password"];
 
     if (name.value == "") {
         window.alert("Por favor insere o nome.");
@@ -47,6 +47,7 @@ function validar(){
     
     }
     
+
 
     return true;
 }
