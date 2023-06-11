@@ -16,10 +16,10 @@ function onClickLogin(){
         }
    }
 }
-function hideLogin(){
 
+function onClickRegiste(){
 
-
+    window.location.href="utilizador.html"
 }
 
 function validar(){
@@ -46,6 +46,7 @@ function validar(){
         return false;
     
     }
+    
 
     return true;
 }
