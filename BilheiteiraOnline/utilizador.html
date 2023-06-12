@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +9,30 @@
     <link rel="stylesheet" type="text/css" href="Styles/tiagostyles.css">
     <script src="Scripts/index.js" type="text/javascript"></script>
 </head>
+
 <body>
     <div class="background">
         <div class="form">
         </div>
-        <form name="utilizador" action="Scripts/novoregisto.php" method="GET">
-        <h1>Criar Utilizador</h1>
-        <div class="info">
-            <label for="nome" id="login"><h3>Nome</h3></label>
-            <input type="text" name="nome"  id="Nome">
-            <label for="email" id="email"><h3>Email</h3></label>
-            <input type="text" name="email" id="Email">
-            <label for="password" id="Password"><h3>Password</h3></label>
-            <input type="password" name="password"  id="Password">
-            <div class="botao"> <button type="botao"  class="botaoutilizador" onclick="validar()">Criar Conta</button>
+        <form name="input" action="Scripts/novoregisto.php" method="get">
+            <h1>Criar Utilizador</h1>
+            <div class="info">
+                <label for="Nome" id="login">
+                    <h3>Nome</h3>
+                </label>
+                <input type="text" name="nome" id="nome">
+                <label for="Email" id="Email">
+                    <h3>Email</h3>
+                </label>
+                <input type="text" name="email" id="email">
+                <label for="Password" id="Password">
+                    <h3>Password</h3>
+                </label>
+                <input type="password" name="password" id="password">
+                <div class="botao"> <button type="botao" class="botaoutilizador" onclick="validar()">Criar Conta</button>
             </div>
         </form>
     </div>
 </body>
+
 </html>

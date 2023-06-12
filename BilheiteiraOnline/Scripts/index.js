@@ -1,53 +1,56 @@
 class UsernamePassword {
-  constructor(email, password, name) {
-    this.email = email;
-    this.password = password;
-    this.name = name;
-  }
+    constructor(email, password, name) {
+        this.email = email;
+        this.password = password;
+        this.name = name;
+    }
 }
 
-function onClickLogin(){
-   let user = new UsernamePassword("utilizador","dsasa","utilizador");
-   
-   if (user.name == "utilizador"){    
-        if (user.password == "dsasa"){
-            alert("Bem vindo "+user.name);
-            windows.location.href="index.html";
+function onClickLogin() {
+    let user = new UsernamePassword("utilizador", "dsasa", "utilizador");
+
+    if (user.name == "utilizador") {
+        if (user.password == "dsasa") {
+            alert("Bem vindo " + user.name);
+            windows.location.href = "index.html";
         }
-   }
+    }
 }
 
-function onClickRegiste(){
+function onClickRegiste() {
 
-    window.location.href="utilizador.html"
+    window.location.href = "utilizador.html"
 }
 
-function validar(){
+function validar() {
 
-    var name = document.forms["utilizador"]["nome"];
-    var email = document.forms["utilizador"]["email"];
-    var password = document.forms["utilizador"]["password"];
+    var name = document.getElementById("nome").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
 
-    if (name.value == "") {
+    if (name.trim() === "") {
+
         window.alert("Por favor insere o nome.");
-        name.focus();
         return false;
     }
 
-    if (email.value == "")  {
+    if (name.length < 5) {
+
+        window.alert("O nome deve ter pelo menos 5 caracteres.");
+        return false;
+    }
+
+    if (email.trim() === "") {
+        
         window.alert("Por favor insere um email valido.");
-        email.focus();
         return false;
     }
 
-    if (password.value == "") {
-        window.alert("Por favor insere uma password correcta");
-        password.focus();
-        return false;
-    
-    }
-    
+    if ((password == "") || (password.length < 6)) {
 
+        alert("Por favor, preencha o campo senha.");
+        return false;
+    }
 
     return true;
 }
