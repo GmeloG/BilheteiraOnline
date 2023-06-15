@@ -23,11 +23,16 @@ $result = mysqli_query($connection,$sql_query) or die(mysqli_error($connection))
 $numrows = mysqli_num_rows($result);
 if($numrows > 0)
 {
-echo 'Your in';
+echo '<script>';
+echo  'window.alert("Este email não foi encontrado"'$email');';
+
 }
 else
 {
-echo 'User not found';
+    echo '<script>';
+    echo  'window.alert("Este email não foi encontrado");
+            window.location.href="http://localhost/2parte/BilheiteiraOnline/utilizador.html";';
+    echo '</script>';
 }
 ?>
 
