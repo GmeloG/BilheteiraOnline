@@ -54,7 +54,26 @@ function validar() {
 
     return true;
 
-    // fazer uma requisiçao ajax para fase de afaf
 
-    //fetch(email);
+}
+
+function validarLogin() {
+
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+
+    if (email.trim() === "") {
+        
+        window.alert("Por favor insere um email valido.");
+        return false;
+    }
+
+    if ((password == "") || (password.length < 6)) {
+
+        alert("Por favor, preencha o campo senha.");
+        return false;
+    }
+
+    return true;
+
 }

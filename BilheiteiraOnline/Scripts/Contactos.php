@@ -17,7 +17,7 @@ $email= $_GET['email'];
 $telefone= $_GET['telefone'];
 $mensagem= $_GET['mensagem'];
 
-$sql_query = "INSERT INTO `utilizador`(`nome`, `email`, `telefone`,`mensagem`) VALUES ('$nome','$email','$telefone','$mensagem')";
+$sql_query = "INSERT INTO `contacto`(`nome`, `telefone`, `email`, `mensagem`) VALUES ('nome','telefone','email','mensagem');";
 
 if (mysqli_query($connection, $sql_query)){
     echo "Message sent!";

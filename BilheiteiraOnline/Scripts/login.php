@@ -23,8 +23,14 @@ $result = mysqli_query($connection,$sql_query) or die(mysqli_error($connection))
 $numrows = mysqli_num_rows($result);
 if($numrows > 0)
 {
-echo '<script>';
-echo  'window.alert("Este email não foi encontrado"'$email');';
+    echo '<script>';
+    echo 'document.addEventListener("keyup", function(event) {';
+    echo 'if (event.keyCode === 13) {';
+    echo 'alert("BEmvindo utilizador");'.json_decode($email); 
+    echo 'window.location.href = "http://localhost/2parte/bilheteira/BilheiteiraOnline/scripts/ticket.php";'; 
+    echo '}';
+    echo '});';
+    echo '</script>';
 
 }
 else
