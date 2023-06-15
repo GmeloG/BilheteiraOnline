@@ -14,7 +14,7 @@
     <div class="background">
         <div class="form">
         </div>
-        <form name="input" action="Scripts/novoregisto.php" method="get">
+        <form  onsubmit="return validar()" name="input" action="Scripts/novoregisto.php" method="get">
             <h1>Criar Utilizador</h1>
             <div class="info">
                 <label for="Nome" id="login">
@@ -29,7 +29,7 @@
                     <h3>Password</h3>
                 </label>
                 <input type="password" name="password" id="password">
-                <div class="botao"> <button type="botao" class="botaoutilizador" onclick="validar()">Criar Conta</button>
+                <div class="botao"> <button type="botao" class="botaoutilizador" >Criar Conta</button>
             </div>
         </form>
     </div>

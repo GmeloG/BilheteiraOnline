@@ -6,9 +6,9 @@ class UsernamePassword {
     }
 }
 
-function onClickLogin() {
+function onClickLogin(email,password) {
     let user = new UsernamePassword("utilizador", "dsasa", "utilizador");
-
+    window.location.href="http://localhost/2parte/BilheiteiraOnline/index.html";
     if (user.name == "utilizador") {
         if (user.password == "dsasa") {
             alert("Bem vindo " + user.name);
@@ -19,7 +19,7 @@ function onClickLogin() {
 
 function onClickRegiste() {
 
-    window.location.href = "utilizador.html"
+    window.location.href = "utilizador.html";
 }
 
 function validar() {
@@ -53,4 +53,8 @@ function validar() {
     }
 
     return true;
+
+    // fazer uma requisiçao ajax para fase de afaf
+
+    //fetch(email);
 }
