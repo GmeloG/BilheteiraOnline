@@ -59,11 +59,13 @@
   color: yellow;
   text-decoration: solid;
   text-align: center;
+  cursor: pointer;
 }
 
 .carregar :hover {
   color: darkgoldenrod;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .elemento {

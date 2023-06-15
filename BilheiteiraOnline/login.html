@@ -6,22 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha conta</title>
     <link rel="stylesheet" type="text/css" href="Styles/tiagostyles.css">
+    <link rel="stylesheet" type="text/css" href="Styles/meloStyle.css">
+    <script src="Scripts/index.js" type="text/javascript"></script>
+    
+
 </head>
 <body>
+    <body>
+        <!--baner de pesquisa e minha conta-->
+        <div class="bannerG">
+            <div class="navbarG">
+            <div class="grid-item"><a href="index.html"><img src="images/logo.png" class="logo"></a></div>
+            <label><a class="ButtonStyle" href="login.html">Login</a></label>
+            </div>
+        </div>
+        <!--botoes das paginas-->
+        <ul>
+            <div class="categorias">
+                <label class="carregar"><a class="elemento" href="features.html">Musica</a></li>
+                    <label class="carregar"><a class="elemento" href="features.html">Exposições</a></li>
+                        <label class="carregar"><a class="elemento" href="features.html">Teatro</a></li>
+                            <label class="carregar"><a class="elemento" href="features.html">Dança</a></li>
+            </div>
+        </ul>
     <div class="background">
         <div class="form">
         </div>
-        <form action="/">
+        <form action="">
         <h1>Login</h1>
         <div class="info">
             <label for="Email" id="email"><h3>Email</h3></label>
             <input name="Email" type="text" id="Email">
             <label for="Password" id="Password"><h3>Password</h3></label>
             <input name="Password" type="password" id="Password">
-            <div class="botao"><button>Login</button></div>
+            <div class="botao carregar"><button onclick='onClickLogin()' >Login</button></div>
         </div>
     </form>
-    <div class="botaoregistar"><button onclick="window.location.href='utilizador.html';">Clique aqui para se registar</button></div>
+    <div class="botaoregistar carregar"><button onclick='onClickRegiste()' >Clique aqui para se registar</button></div>
     </div>
+    <footer>
+        <div class="grid-rodape">
+            <div class="grid-item"><a href="index.html"><img src="images/logo.png" class="logo"></a></div>
+            <div class="grid-item">
+                <ul ><h2 id="linkrodape">Links:</h2></ul>
+                <ul><h3><a class="sublinhado" href=contactos.html>Contactos</a></h3></ul>
+                <ul><h3><a class="sublinhado" href=login.html>A minha conta</a></h3></ul>
+            </div>
+            <div class="grid-item">
+                <ul><h2>Redes Sociais</h2></ul>
+                <ul><img class="redes" src="images/redes.png"></div> 
+                </ul>
+            </div>
+
+        <div class="copyright"><h5>Copyright DEAPC 2023</h5></div>
+
+    </footer>
 </body>
 </html>

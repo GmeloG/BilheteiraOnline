@@ -1,0 +1,382 @@
+commit 4ed66a8cfe30ba2184e5e877f66a55e8a3bb006b
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu Jun 1 21:29:52 2023 +0100
+
+    Juntar login a index.html
+
+commit 739195a606969ad9174b51584c3aea4856aaa77d
+Author: tafonso00 <1151046@isep.ipp.pt>
+Date:   Thu Jun 1 21:15:02 2023 +0100
+
+    acrescentar login
+
+commit e940f8a082502d8fe78fa9f8a13c7144ba472312
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu Jun 1 21:09:13 2023 +0100
+
+    Adicionar footer
+
+commit f1f6a6ec0f9bb65121b0909d58105ec1e99d803b
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu Jun 1 20:56:01 2023 +0100
+
+    Adi├º├úo do footer
+
+commit 830515c3bab6c5d36578cf17fc8ab258708f8f27
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Sun May 28 21:27:14 2023 +0100
+
+    Fazer o liga├º├úo utilizador
+
+commit c12e492709c53dca31b47026941af6fb069c6d6d
+Merge: 86e1fb2 e87bb4b
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Sun May 28 21:21:23 2023 +0100
+
+    Merge commit 'e87bb4bc490b9c52db9c3253d2188e9a36dc3f26' into index
+
+commit 86e1fb241f3789eb1a279f85e8644a2cb37e7018
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Sun May 28 21:15:15 2023 +0100
+
+    Ligar a pagina de compras e features com o index
+
+commit c6b86c8eb8a982a8f2c3d94111dee3fda1a3ce0c
+Merge: d8954d3 6a1712d
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Sun May 28 17:57:23 2023 +0100
+
+    adicionar mais vendidos e proximos eventos
+
+commit d8954d3a801739a63a5952d7e3ea3247cf7708fa
+Author: Gon├ºalo Melo <goncalomelogoncalves@gmail.com>
+Date:   Fri May 26 19:17:34 2023 +0100
+
+    Delete BilheiteiraOnline.zip
+
+commit 72688e85422be1251193106d25ced43265799341
+Merge: c4f7284 4c79e5a
+Author: Gon├ºalo Melo <goncalomelogoncalves@gmail.com>
+Date:   Fri May 26 18:58:27 2023 +0100
+
+    Merge pull request #4 from GmeloG/index
+    
+    Index
+
+commit 4c79e5a51bb15ff34806809a15ae5becc0217c15
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Fri May 26 18:57:11 2023 +0100
+
+    Modifica├º├úo dos mais vendidos
+
+commit 502bcf6aea581a90b766d9d947c8af6e4fe140bc
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 25 23:22:27 2023 +0100
+
+    Continua├º├úo Index
+
+commit 6a1712dec4c17660c60092b019997ac0640048d7
+Author: Pedromarkes <pedro-vermelho@hotmail.com>
+Date:   Thu May 25 23:21:36 2023 +0100
+
+    Final aula
+    
+    Versao sem o header para acrescentar
+
+commit e87bb4bc490b9c52db9c3253d2188e9a36dc3f26
+Author: Gon├ºalo Melo <goncalomelogoncalves@gmail.com>
+Date:   Thu May 25 23:07:21 2023 +0100
+
+    Delete login.html
+
+commit ee3d22fc3f14cf3fc9d76289efe425cdbfe4f2f6
+Author: Pedromarkes <pedro-vermelho@hotmail.com>
+Date:   Thu May 25 23:01:53 2023 +0100
+
+    Style
+    
+    mudei nome ficheiro
+
+commit c4f72842d0b0db46b06e9050c1b2aabf0b473292
+Merge: d0d6ec4 3b97517
+Author: Gon├ºalo Melo <goncalomelogoncalves@gmail.com>
+Date:   Thu May 25 22:56:48 2023 +0100
+
+    Merge pull request #1 from GmeloG/index
+    
+    Criar Index.html e meloStyle.css
+
+commit 3b975177fd42e444453922e036f2a8eab9a07daa
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 25 22:51:04 2023 +0100
+
+    Criar Index.html e meloStyle.css
+
+commit d32d7f40dfab0ae827eb17084476972136f441a5
+Author: tafonso00 <1151046@isep.ipp.pt>
+Date:   Thu May 25 22:48:42 2023 +0100
+
+    rodape login utilizador contactos
+
+commit 007a9be9682cbd80fdd97cf3cfab2b4d81ee642f
+Author: Pedromarkes <pedro-vermelho@hotmail.com>
+Date:   Thu May 25 22:47:32 2023 +0100
+
+    1commit
+    
+    Commit sem o header commum
+
+commit 0b7bed3a24a27c8c830076cd69f082eac8513dcd
+Author: tafonso00 <1151046@isep.ipp.pt>
+Date:   Wed May 24 21:45:07 2023 +0100
+
+    Construcao do formul├írio
+
+commit d0d6ec474552d4350a2fb069bf5f59c9454a4947
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Mon May 22 21:20:19 2023 +0100
+
+    Pagina inicial incompleta
+
+commit 3073547ca0bcae42018a6c18e19c3681ce700b8c
+Merge: 26da688 e520558
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 18 23:06:52 2023 +0100
+
+    teste
+
+commit 26da688470656fe38ca41d2b2ee57b9ad9615715
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 18 23:05:06 2023 +0100
+
+    troca de branch
+
+commit 8a8b9c22cc4c787c7b25322dde84d8151a6bfe05
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 18 22:56:52 2023 +0100
+
+    adicionar pastas e paginas html
+
+commit e520558487406a548d338f5bd809cde556edba6e
+Author: tafonso00 <1151046@isep.ipp.pt>
+Date:   Thu May 18 16:57:51 2023 +0100
+
+    teste tiago
+
+commit 6efefa1888afcdbe3c3351030d1cc3f9051a3cfb
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Sun May 7 16:43:01 2023 +0100
+
+    Adicionar Diret├│rios
+
+commit 22cd0b4d826bca9bfc5162d8041480a7481c5f96
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 4 23:19:00 2023 +0100
+
+    teste file.txt
+
+commit 5ed40708169eae2ad556df585e88441dad16787a
+Author: tafonso00 <1151046@isep.ipp.pt>
+Date:   Thu May 4 22:31:20 2023 +0100
+
+    teste1
+
+commit 911c4460dcf139cd11eca901adecc0fbc34ce168
+Author: Gon├ºalo Melo <64694403+GmeloG@users.noreply.github.com>
+Date:   Thu May 4 22:23:25 2023 +0100
+
+    teste
+commit ac296d04fd8d490b9034d69168ca415c19d09a2e
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu Jun 1 23:12:49 2023 +0100
+
+    adicinar javascript
+
+commit 4ed66a8cfe30ba2184e5e877f66a55e8a3bb006b
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu Jun 1 21:29:52 2023 +0100
+
+    Juntar login a index.html
+
+commit 739195a606969ad9174b51584c3aea4856aaa77d
+Author: tafonso00 <1151046@isep.ipp.pt>
+Date:   Thu Jun 1 21:15:02 2023 +0100
+
+    acrescentar login
+
+commit e940f8a082502d8fe78fa9f8a13c7144ba472312
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu Jun 1 21:09:13 2023 +0100
+
+    Adicionar footer
+
+commit f1f6a6ec0f9bb65121b0909d58105ec1e99d803b
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu Jun 1 20:56:01 2023 +0100
+
+    Adi├º├úo do footer
+
+commit 830515c3bab6c5d36578cf17fc8ab258708f8f27
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Sun May 28 21:27:14 2023 +0100
+
+    Fazer o liga├º├úo utilizador
+
+commit c12e492709c53dca31b47026941af6fb069c6d6d
+Merge: 86e1fb2 e87bb4b
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Sun May 28 21:21:23 2023 +0100
+
+    Merge commit 'e87bb4bc490b9c52db9c3253d2188e9a36dc3f26' into index
+
+commit 86e1fb241f3789eb1a279f85e8644a2cb37e7018
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Sun May 28 21:15:15 2023 +0100
+
+    Ligar a pagina de compras e features com o index
+
+commit c6b86c8eb8a982a8f2c3d94111dee3fda1a3ce0c
+Merge: d8954d3 6a1712d
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Sun May 28 17:57:23 2023 +0100
+
+    adicionar mais vendidos e proximos eventos
+
+commit d8954d3a801739a63a5952d7e3ea3247cf7708fa
+Author: Gon├ºalo Melo <goncalomelogoncalves@gmail.com>
+Date:   Fri May 26 19:17:34 2023 +0100
+
+    Delete BilheiteiraOnline.zip
+
+commit 72688e85422be1251193106d25ced43265799341
+Merge: c4f7284 4c79e5a
+Author: Gon├ºalo Melo <goncalomelogoncalves@gmail.com>
+Date:   Fri May 26 18:58:27 2023 +0100
+
+    Merge pull request #4 from GmeloG/index
+    
+    Index
+
+commit 4c79e5a51bb15ff34806809a15ae5becc0217c15
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Fri May 26 18:57:11 2023 +0100
+
+    Modifica├º├úo dos mais vendidos
+
+commit 502bcf6aea581a90b766d9d947c8af6e4fe140bc
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 25 23:22:27 2023 +0100
+
+    Continua├º├úo Index
+
+commit 6a1712dec4c17660c60092b019997ac0640048d7
+Author: Pedromarkes <pedro-vermelho@hotmail.com>
+Date:   Thu May 25 23:21:36 2023 +0100
+
+    Final aula
+    
+    Versao sem o header para acrescentar
+
+commit e87bb4bc490b9c52db9c3253d2188e9a36dc3f26
+Author: Gon├ºalo Melo <goncalomelogoncalves@gmail.com>
+Date:   Thu May 25 23:07:21 2023 +0100
+
+    Delete login.html
+
+commit ee3d22fc3f14cf3fc9d76289efe425cdbfe4f2f6
+Author: Pedromarkes <pedro-vermelho@hotmail.com>
+Date:   Thu May 25 23:01:53 2023 +0100
+
+    Style
+    
+    mudei nome ficheiro
+
+commit c4f72842d0b0db46b06e9050c1b2aabf0b473292
+Merge: d0d6ec4 3b97517
+Author: Gon├ºalo Melo <goncalomelogoncalves@gmail.com>
+Date:   Thu May 25 22:56:48 2023 +0100
+
+    Merge pull request #1 from GmeloG/index
+    
+    Criar Index.html e meloStyle.css
+
+commit 3b975177fd42e444453922e036f2a8eab9a07daa
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 25 22:51:04 2023 +0100
+
+    Criar Index.html e meloStyle.css
+
+commit d32d7f40dfab0ae827eb17084476972136f441a5
+Author: tafonso00 <1151046@isep.ipp.pt>
+Date:   Thu May 25 22:48:42 2023 +0100
+
+    rodape login utilizador contactos
+
+commit 007a9be9682cbd80fdd97cf3cfab2b4d81ee642f
+Author: Pedromarkes <pedro-vermelho@hotmail.com>
+Date:   Thu May 25 22:47:32 2023 +0100
+
+    1commit
+    
+    Commit sem o header commum
+
+commit 0b7bed3a24a27c8c830076cd69f082eac8513dcd
+Author: tafonso00 <1151046@isep.ipp.pt>
+Date:   Wed May 24 21:45:07 2023 +0100
+
+    Construcao do formul├írio
+
+commit d0d6ec474552d4350a2fb069bf5f59c9454a4947
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Mon May 22 21:20:19 2023 +0100
+
+    Pagina inicial incompleta
+
+commit 3073547ca0bcae42018a6c18e19c3681ce700b8c
+Merge: 26da688 e520558
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 18 23:06:52 2023 +0100
+
+    teste
+
+commit 26da688470656fe38ca41d2b2ee57b9ad9615715
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 18 23:05:06 2023 +0100
+
+    troca de branch
+
+commit 8a8b9c22cc4c787c7b25322dde84d8151a6bfe05
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 18 22:56:52 2023 +0100
+
+    adicionar pastas e paginas html
+
+commit e520558487406a548d338f5bd809cde556edba6e
+Author: tafonso00 <1151046@isep.ipp.pt>
+Date:   Thu May 18 16:57:51 2023 +0100
+
+    teste tiago
+
+commit 6efefa1888afcdbe3c3351030d1cc3f9051a3cfb
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Sun May 7 16:43:01 2023 +0100
+
+    Adicionar Diret├│rios
+
+commit 22cd0b4d826bca9bfc5162d8041480a7481c5f96
+Author: GmeloG <goncalomelogoncalves@gmail.com>
+Date:   Thu May 4 23:19:00 2023 +0100
+
+    teste file.txt
+
+commit 5ed40708169eae2ad556df585e88441dad16787a
+Author: tafonso00 <1151046@isep.ipp.pt>
+Date:   Thu May 4 22:31:20 2023 +0100
+
+    teste1
+
+commit 911c4460dcf139cd11eca901adecc0fbc34ce168
+Author: Gon├ºalo Melo <64694403+GmeloG@users.noreply.github.com>
+Date:   Thu May 4 22:23:25 2023 +0100
+
+    teste
