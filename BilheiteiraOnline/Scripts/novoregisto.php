@@ -1,3 +1,7 @@
+<html>
+<head></head>
+<body>
+
 <?php 
 
     $serverName = "127.0.0.1"; 
@@ -16,15 +20,34 @@
     $email= $_GET['email'];
     $password= $_GET['password'];
 
-    $sql_query = "INSERT INTO `utilizador`(`nome`, `email`, `password`) VALUES ('$nome','$email','$password')";
+    $sql_query = "SELECT * FROM `utilizador` WHERE email = '$email';";
+    $result = mysqli_query($connection,$sql_query) or die(mysqli_error($connection));
+    $numrows = mysqli_num_rows($result);
+    if($numrows == 0)
+    {   
+        $sql_query = "INSERT INTO `utilizador`(`nome`, `email`, `password`) VALUES ('$nome','$email','$password')";
 
-    if (mysqli_query($connection, $sql_query)){
-        echo "New User added!!";
+        if (mysqli_query($connection, $sql_query)){
+            echo "New User added!!";
+        }
+        else{
+            echo "Error: " .$sql . "".mysqli_error($connection);
+        }
+    }    
+    else {
+      
+        echo '<script>';
+        echo  'window.alert("Já existe este email");
+                window.location.href="http://localhost/2parte/BilheiteiraOnline/utilizador.html";';
+        echo '</script>';
+        return false;
     }
-    else{
-        echo "Error: " .$sql . "".mysqli_error($connection);
-    }
-    mysqli_close($connection)
+    mysqli_close($connection);
 
 
 ?>
+<script>window.location.href="http://localhost/2parte/BilheiteiraOnline/index.html";</script>
+
+
+</body>
+</html>
