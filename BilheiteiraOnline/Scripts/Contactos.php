@@ -1,3 +1,4 @@
+<html>
 <?php
 $serverName = "127.0.0.1"; 
 $userName = "root"; 
@@ -28,4 +29,5 @@ mysqli_close($connection)
 
 
 ?>
-?>
+
+</html>
