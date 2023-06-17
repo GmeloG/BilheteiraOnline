@@ -32,14 +32,14 @@
     <div class="background">
         <div class="form">
         </div>
-        <form onsubmit="return validarLogin()" name="input" ation="Scripts/login.php" method="get">
+        <form onsubmit="return validarLogin()" name="input" ation="Scripts/login.php" method="post">
         <h1>Login</h1>
         <div class="info">
             <label for="Email" id="Email"><h3>Email</h3></label>
             <input type="text" name="email"  id="email">
             <label for="Password" id="Password"><h3>Password</h3></label>
             <input type="password" name="password" id="password">
-            <div class="botao carregar"><button type="botao" >Login</button></div>
+            <div class="botao"><button type="botao" class="botaLogin">Login</button></div>
         </div>
     </form>
     <div class="botaoregistar carregar"><button onclick='onClickRegiste()' >Clique aqui para se registar</button></div>

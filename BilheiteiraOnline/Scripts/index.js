@@ -9,12 +9,7 @@ class UsernamePassword {
 function onClickLogin(email,password) {
     let user = new UsernamePassword("utilizador", "dsasa", "utilizador");
     window.location.href="http://localhost/2parte/BilheiteiraOnline/index.html";
-    if (user.name == "utilizador") {
-        if (user.password == "dsasa") {
-            alert("Bem vindo " + user.name);
-            windows.location.href = "index.html";
-        }
-    }
+
 }
 
 function onClickRegiste() {
